@@ -36,12 +36,12 @@ Before you begin, ensure you have the following installed:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-repository-name.git
+   git clone https://github.com/dioarafll/SecureAuthFlow.git
    ```
 
 2. **Navigate to the project directory**:
    ```bash
-   cd your-repository-name
+   cd SecureAuthFlow
    ```
 
 3. **Install dependencies**:
