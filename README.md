@@ -4,6 +4,14 @@
 
 This project implements a robust **user authentication flow** with essential features such as **sign-up**, **sign-in**, **password recovery**, **phone verification**, **two-factor authentication (2FA)**, and **account verification**. Designed for scalability and security, it utilizes **JWT** for authentication and incorporates a seamless multi-step process to ensure user safety.
 
+---
+
+## Demo  
+
+Frontend aplikasi di-deploy di **Netlify**: [Akses Demo di Sini](https://secureauthflow.netlify.app/).  
+
+
+
 ## 🚀 Available Routes
 
 The following routes are available in the application for various user authentication tasks:
