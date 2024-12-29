@@ -1,7 +1,7 @@
 {
-  "name": "",
+  "name": " secureauthflow",
   "version": "1.0.0",
-  "description": "",
+  "description": "User Authentication Flow with 2FA, JWT, and Phone Verification",
   "main": "index.js",
   "scripts": {
     "build": "tsc && vite build",
