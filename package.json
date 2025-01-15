@@ -1,10 +1,8 @@
 {
-  "name": " secureauthflow",
+  "name": "secureauthflow",
   "version": "1.0.0",
-  "description": "User Authentication Flow with 2FA, JWT, and Phone Verification",
-  "main": "index.js",
-  "scripts": {
-    "build": "tsc && vite build",
+  "description": "User Authentication Flow with 2FA, JWT, and Phone Verification",        "main": "index.js",
+  "scripts": {                                                                              "build": "tsc && vite build",
     "serve": "vite preview",
     "start": "netlify dev",
     "dev": "vite & tsc -w",
@@ -16,13 +14,19 @@
     "coverage": "jest --collectCoverage=true"
   },
   "dependencies": {
+    "@reduxjs/toolkit": "^2.5.0",
+    "@types/react-helmet": "^6.1.11",
+    "@types/react-redux": "^7.1.34",
     "clsx": "^2.1.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "react-hook-form": "^7.54.2",
-    "react-icons": "^5.4.0",
+    "react-helmet": "^6.1.0",
+    "react-hook-form": "^7.54.2",                                                           "react-icons": "^5.4.0",
+    "react-redux": "^9.2.0",
     "react-router-dom": "6",
-    "react-select": "^5.9.0"
+    "react-select": "^5.9.0",
+    "redux": "^5.0.1",
+    "redux-persist": "^6.0.0"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^6.6.3",
